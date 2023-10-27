@@ -1,0 +1,34 @@
+{
+    "name": "ultracool",
+    "version": "2.0.0",
+    "description": "cool website",
+    "main": "lib/index.cjs",
+    "license": "MIT",
+    "files": [
+        "dist",
+        "lib",
+        "uv.d.ts",
+        "client.d.ts"
+    ],
+    "type": "module",
+    "scripts": {
+        "build": "node build.js",
+        "dev": "node build.js --dev",
+        "prepack": "npm run build"
+    },
+    "devDependencies": {
+        "@tomphttp/bare-client": "^2.2.0-alpha",
+        "css-tree": "^2.3.1",
+        "esbuild": "^0.18.11",
+        "eslint": "^8.28.0",
+        "esotope-hammerhead": "^0.6.4",
+        "events": "^3.3.0",
+        "idb": "^7.1.1",
+        "meriyah": "^4.3.7",
+        "mime-db": "^1.52.0",
+        "parse5": "^7.1.2",
+        "prettier": "^2.8.0",
+        "rimraf": "^5.0.1",
+        "set-cookie-parser": "^2.6.0"
+    }
+}
